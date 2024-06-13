@@ -76,6 +76,8 @@ Build a Tour Project App using ReactJS.
 
 **<p align="center">&#9786; Happy Coding &#9997;</p>**
 
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
