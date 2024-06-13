@@ -40,6 +40,10 @@ SOLUTION
 
 ## Expected Outcome
 
+<p align="center">
+<a href="#"><img src="tourplaces.gif" alt="screenshot"></a>
+</p>
+
 ## Objective
 
 Build a Tour Project App using ReactJS.
