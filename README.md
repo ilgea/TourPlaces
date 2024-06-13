@@ -19,23 +19,29 @@ SOLUTION
 │     └── index.html
 ├── src
 │    ├── components
-│    │       ├── cards
-│    │       │     ├── Card.css
-│    │       │     └── Card.js
-│    │       ├── header
-│    │       │     ├── Header.css
-│    │       │     └── Header.js
-│    │       └── navbar
-│    │             ├── Navbar.css
-│    │             └── Navbar.js
+│    │       ├── Main
+│    │       │     ├── Main.jsx
+│    │       │     └── Card.jsx
+│    │       │     └── Main.scss
+│    │       ├── Header
+│    │       │     ├── Header.jsx
+│    │       │     └── Header.scss
+│    │       └── Navbar
+│    │             ├── Navbar.jsx
+│    │             └── Navbar.scss
 │    ├── helper
 │    │       └── data.js
+│    ├── scss
+│    │     ├── _mixins.scss
+│    │     └── _reset.scss
+│    │     └── _variables.scss
 │    ├── App.js
-│    ├── App.css
+│    ├── App.scss
 │    ├── index.js
 │    └── index.css
 ├── package.json
 └── yarn.lock
+
 ```
 
 ## Expected Outcome
@@ -51,16 +57,13 @@ SOLUTION
 <hr>
 
 
-
 ## Objective
 
 Build a Tour Project App using ReactJS.
 
 ### At the end of the project, following topics are to be covered;
 
-- HTML
-
-- CSS
+- SASS
 
 - JS
 
