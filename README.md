@@ -64,7 +64,7 @@ Build a Tour Project App using ReactJS.
 
 - Step 1: Create React App using `npx create-react-app tour-places`
 
-- Step 2: Build tour places app using [`data.js`](./data.js).
+- Step 2: Build tour places app using [`data.js`](./src/helper/data.js).
 
 - Step 4: Push your application into your own public repo on Github
 
