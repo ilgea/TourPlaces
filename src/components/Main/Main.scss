@@ -1,0 +1,50 @@
+@use "../../scss/variables" as v;
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  .card {
+    background-color: v.$cardNavBgColor;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    //% her bir desc. kendi card'ına hapsoldu
+    position: relative;
+    overflow: hidden;
+    &:hover p {
+      transform: translateY(0%);
+    }
+    &:hover img {
+      filter: grayscale(100%);
+    }
+
+    .title {
+      color: v.$backgroundColor;
+      font-size: 2rem;
+      padding: 1rem;
+    }
+    p {
+      color: white;
+      position: absolute;
+      // % absolute kullandığımızdan mutlaka aşağıdaki gibi konum belirtmek gerekir.
+      bottom: 0;
+      left: 0;
+      transform: translateY(100%);
+      transition: transform 0.7s ease-in-out;
+      font-size: 1.5rem;
+      padding: 1rem;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+  img {
+    width: 500px;
+    height: 350px;
+    //% fotolara sabit genişlik ve yükseklik verdiğimizde bozulmalar olmaması için
+    object-fit: cover;
+    transition: filter 0.7s ease-in-out;
+  }
+}

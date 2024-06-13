@@ -1,0 +1,30 @@
+@use "./scss/reset";
+
+// ! Neden as v kısaltmasını kullanıyoruz.
+// % Sass, modüller arasında ad çakışmalarını önlemek için namespace kullanır.
+// % Bir Sass dosyasını @use direktifi ile dahil ederseniz,
+// % o dosyadaki tüm değişkenler, işlevler ve placeholder'lar otomatik olarak ad alanına alınır.
+// % Bu, farklı modüller arasında aynı isimlere sahip öğelerin çakışmasını engeller.
+// % Örnekte @use "./scss/variables"; şeklinde kullandığınızda,
+// % variables dosyasındaki tüm değişkenler, işlevler vb. variables ad alanına alınır.
+// % Bu nedenle, $backgroundColor değişkenine erişmek için
+// % tam yolunu kullanmanız gerekir: variables.$backgroundColor.
+// % Bu, kodunuzu okunaklı kılmaz ve her seferinde tam yolu yazmanız gerekir.
+// % Bunu önlemek için as anahtar kelimesini kullanarak ad alanını kısaltabilirsiniz.
+// % @use "./scss/variables" as v; şeklinde kullandığınızda,
+// % variables modülündeki tüm öğelere v ad alanından erişebilirsiniz.
+// % Örneğin, v.$backgroundColor şeklinde daha kısa ve okunaklı bir şekilde değişkene erişebilirsiniz.
+
+@use "./scss/variables" as v;
+
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+
+body {
+  background-color: v.$backgroundColor;
+  font-family: "Amatic SC", sans-serif;
+}
+
+p {
+  font-family: "Hubballi", sans-serif;
+}

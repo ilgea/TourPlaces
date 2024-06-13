@@ -1,0 +1,33 @@
+@use "../../scss/variables" as v;
+// % as * dediğinde aşağıdaki gibi kullanabilirsin.
+// % as m dediğinde m.media-xsm, m.media.sm olarak kullanmalısın.
+@use "../../scss/mixins" as *;
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: v.$cardNavBgColor;
+  a {
+    color: v.$backgroundColor;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    &:hover {
+      color: v.$cardNavBgColor;
+      background-color: v.$backgroundColor;
+    }
+  }
+}
+
+@include media-xsm {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@include media-sm {
+  .navbar {
+    flex-direction: row;
+  }
+}
