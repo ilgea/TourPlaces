@@ -1,4 +1,4 @@
-# Project-001 Tour Places
+# Project : Tour Places
 
 ## Description
 
@@ -51,11 +51,11 @@ SOLUTION
 </p>
 
 ## Links
+
 <p align="left">
 <b>Check The Live Website ➡️</b> <a href="https://mytourplaces.netlify.app/">Live Website</a>
 </p>
 <hr>
-
 
 ## Objective
 
