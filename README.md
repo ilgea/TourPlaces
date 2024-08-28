@@ -11,37 +11,36 @@
 ## Project Skeleton
 
 ```
-001-Tour Project(folder)
-|
-|----readme.md
-SOLUTION
-├── public
-│     └── index.html
-├── src
-│    ├── components
-│    │       ├── Main
-│    │       │     ├── Main.jsx
-│    │       │     └── Card.jsx
-│    │       │     └── Main.scss
-│    │       ├── Header
-│    │       │     ├── Header.jsx
-│    │       │     └── Header.scss
-│    │       └── Navbar
-│    │             ├── Navbar.jsx
-│    │             └── Navbar.scss
-│    ├── helper
-│    │       └── data.js
-│    ├── scss
-│    │     ├── _mixins.scss
-│    │     └── _reset.scss
-│    │     └── _variables.scss
-│    ├── App.js
-│    ├── App.scss
-│    ├── index.js
-│    └── index.css
-├── package.json
-└── yarn.lock
-
+└── 📁TourPlaces
+    └── 📁public
+        └── index.html
+    └── 📁src
+        └── 📁components
+            └── 📁Header
+                └── Header.jsx
+                └── Header.scss
+            └── 📁Main
+                └── Card.jsx
+                └── Main.jsx
+                └── Main.scss
+            └── 📁Navbar
+                └── Navbar.jsx
+                └── Navbar.scss
+        └── 📁helper
+            └── data.js
+        └── 📁scss
+            └── _mixins.scss
+            └── _reset.scss
+            └── _variables.scss
+        └── App.js
+        └── App.scss
+        └── index.css
+        └── index.js
+    └── .gitignore
+    └── package.json
+    └── README.md
+    └── tourplaces.gif
+    └── yarn.lock
 ```
 
 ## Expected Outcome
