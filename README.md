@@ -71,7 +71,7 @@ Build a Tour Project App using ReactJS.
 
 ### At the end of the project;
 
-- improve coding skills within HTML & CSS & JS & ReactJS.
+- improve coding skills within HTML & CSS & SASS & JS & ReactJS.
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
