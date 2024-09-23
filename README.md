@@ -1,5 +1,15 @@
 # Project : Tour Places
 
+## Contents
+
+  - [Description](#description)
+  - [Problem Statement](#problem-statement)
+  - [Project Skeleton](#project-skeleton)
+  - [Expected Outcome](#expected-outcome)
+  - [Link](#link)
+  - [Objective](#objective)
+  - [Steps to Solution](#steps-to-solution)
+
 ## Description
 
 - Project aims to create a tour places app.
@@ -49,7 +59,7 @@
 <a href="#"><img src="tourplaces.gif" alt="screenshot"></a>
 </p>
 
-## Links
+## Link
 
 <p align="left">
 <b>Check The Live Website ➡️</b> <a href="https://mytourplaces.netlify.app/">Live Website</a>
